@@ -1,11 +1,12 @@
 import apis
 import logs
+import os
 
 SERVICE_CATEGORY = "2c9c486e4f821a19014f82381feb0001"  # This is the category ID for "Sports Reservation". It usually doesn't change.
 
 # Fill in these data
-USER_ID = "YOUR_USER_ID"
-USER_PASSWORD = "YOUR_USER_PASSWORD"
+USER_ID = os.environ["NETEASE_USERNAME"]
+USER_PASSWORD = os.environ["NETEASE_PASSWORD"]
 CAMPUS_NAME = "邯郸校区"
 SPORT_NAME = "羽毛球"
 SPORT_LOCATION = "正大体育馆羽毛球(标场)"
