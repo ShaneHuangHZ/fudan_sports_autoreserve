@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: 'Install dependencies'
-      run: python -m pip install --upgrade DecryptLogin bs4
+      run: python -m pip install --upgrade DecryptLogin bs4 cv2
     - name: 'signin'
       env:
         NETEASE_USERNAME: ${{ secrets.NETEASE_USERNAME }}
