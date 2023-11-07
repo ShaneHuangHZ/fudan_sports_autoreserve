@@ -3,7 +3,7 @@ name: 'reservatuin'
 on:
   push:
     branches: 
-      - master
+      - temp2
   schedule:
     - cron: '0 5 * * *'
 
