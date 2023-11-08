@@ -11,7 +11,7 @@ CAMPUS_NAME = "邯郸校区"
 SPORT_NAME = "网球"
 SPORT_LOCATION = "南区国权路网球场"
 DATE = "2023-11-09"
-TIME = "9:00"
+TIME = "09:00"
 
 # Optional data
 EMAILS = ["YOUR_EMAIL"]  # Receive error notifications by email
