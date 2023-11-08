@@ -5,8 +5,8 @@ on:
     branches: 
       - master
   workflow_dispatch:
-  schedule:
-    - cron: '00 22 * * *'
+  # schedule:
+  #   - cron: '00 22 * * *'
     
 
 jobs:
