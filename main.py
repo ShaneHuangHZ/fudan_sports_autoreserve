@@ -7,11 +7,11 @@ SERVICE_CATEGORY = "2c9c486e4f821a19014f82381feb0001"  # This is the category ID
 # Fill in these data
 USER_ID = os.environ["NETEASE_USERNAME"]
 USER_PASSWORD = os.environ["NETEASE_PASSWORD"]
-CAMPUS_NAME = "江湾校区"
-SPORT_NAME = "网球"
-SPORT_LOCATION = "江湾体育馆羽毛球场"
-DATE = "2023-11-10"
-TIME = "09:00"
+CAMPUS_NAME = "邯郸校区"
+SPORT_NAME = "羽毛球"
+SPORT_LOCATION = "正大体育馆羽毛球(标场)"
+DATE = "2023-11-11"
+TIME = "19:00"
 
 # Optional data
 EMAILS = ["YOUR_EMAIL"]  # Receive error notifications by email
