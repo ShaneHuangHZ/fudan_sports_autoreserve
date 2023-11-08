@@ -10,7 +10,7 @@ USER_PASSWORD = os.environ["NETEASE_PASSWORD"]
 CAMPUS_NAME = "邯郸校区"
 SPORT_NAME = "羽毛球"
 SPORT_LOCATION = "正大体育馆羽毛球(标场)"
-DATE = "2023-11-10"
+DATE = "2023-11-11"
 TIME = "21:00"
 
 # Optional data
